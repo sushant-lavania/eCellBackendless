@@ -1996,3 +1996,21 @@ input:-moz-placeholder {
     font-size: 36px;
     line-height: 1.5;
 }
+
+.further{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.changes{
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+.fa-spotify{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(30, 215, 97);
+    display: inline-block;
+}
