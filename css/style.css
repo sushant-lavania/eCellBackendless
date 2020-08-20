@@ -22,6 +22,7 @@ Author Name: xcodesolution (https://themeforest.net/user/xcodesolution)
 06. About CSS
 07. Organizer CSS
 08. Speakers CSS
+09. New Updates
 09. Pricing CSS
 10. Ticket CSS
 11. Schedule CSS
@@ -892,6 +893,89 @@ input:-moz-placeholder {
     top: -5px;
 }
 
+
+
+/*****-----*****-----*****-----*****
+    09. Pricing CSS
+*****-----*****-----*****-----*****/
+
+.new-updates-area{
+    margin: 80px 0;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    cursor: all-scroll;
+  }
+
+  .new-updates-area .cover .overlay {
+    height: 250px;
+    padding-top: 60px;
+    opacity: 0;
+    background: rgba(0, 168, 255, 0.9);
+    -webkit-transition: opacity 0.45s ease;
+    transition: opacity 0.45s ease;
+  }
+
+  #new-updates {
+    margin-bottom: 100px;
+  }
+
+  .new-updates-area:hover .cover .overlay {
+    opacity: 1;
+  }
+
+  .new-updates-area .avatar {
+    position: relative;
+    z-index: 2;
+    margin-top: -60px;
+    width: 140px;
+  }
+
+  .new-updates-area .title {
+    margin: 50px 0;
+  }
+
+  .container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 768px) {
+    .container1 {
+      width: 750px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container1 {
+      width: 970px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container1 {
+      width: 1170px;
+    }
+  }
+
+  .new-updates-area img {
+    display: inline;
+  }
+
+  .new-updates-area h4,
+  h5 {
+    color: #333;
+    margin: 10px;
+  }
+
+  .new-updates-area h4 {
+    font-size: 1.5rem;
+  }
+
+  .new-updates-area h5 {
+    font-size: 1.3rem;
+  }
 
 /*****-----*****-----*****-----*****
     09. Pricing CSS
