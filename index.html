@@ -624,7 +624,7 @@
 
     <!-- New Updates -->
 
-    <section class="new-updates-area" id="new-updates" style="padding: 40px 0;">
+    <section class="new-update-area" id="new-updates" style="padding: 40px 0;">
 
         <div class="shep-right">
             <img src="images/shep-right.png" alt="">
@@ -648,7 +648,7 @@
             <div class="owl-carousel owl-theme" style="padding-right:0px;padding-left:0px;">
                 <div class="item" style="width: 100%;">
                     <div class="new-updates-area text-center" style="text-align: center;">
-                        <div class="cover" style=" background-size:cover;">
+                        <div class="cover" style="background:url(''); background-size:cover;">
                         </div><img class="avatar" src="images/venue.jpg" alt="Team Image">
                         <div class="title">
                             <h4>Title</h4>
@@ -948,30 +948,29 @@
     <script src="js/tabs.js"></script>
     <script src="js/lightbox.min.js"></script>
 
-
+    <!--Owl Carousel for New Updates-->
     <script type="text/javascript">
         var owl = $(".owl-carousel");
         owl.owlCarousel({
-            loop: false,
+            loop: true,
             margin: 10,
             navigation: true,
             autoPlay: true,
-            items: 4,
+            items: 3,
             navigationText: [
                 "<i class='fa fa-chevron-left'></i>",
                 "<i class='fa fa-chevron-right'></i>"
             ],
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
+            autoplayTimeout: 1000,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items: 2
                 },
                 1000: {
-                    items: 4
+                    items: 3
                 }
             }
         });

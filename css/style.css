@@ -23,20 +23,20 @@ Author Name: xcodesolution (https://themeforest.net/user/xcodesolution)
 07. Organizer CSS
 08. Speakers CSS
 09. New Updates
-09. Pricing CSS
-10. Ticket CSS
-11. Schedule CSS
-12. Venue CSS
-13. Gallery CSS
-14. Counter CSS
-15. Blog CSS
+10. Pricing CSS
+11. Ticket CSS
+12. Schedule CSS
+13. Venue CSS
+14. Gallery CSS
+15. Counter CSS
+16. Blog CSS
         * Blog Single CSS
-16. Sponsor CSS
-17. Contact CSS
-18. Page title CSS
-19. Footer CSS
-20. Dark Version CSS 
-21. Demo List Page CSS 
+17. Sponsor CSS
+18. Contact CSS
+19. Page title CSS
+20. Footer CSS
+21. Dark Version CSS 
+22. Demo List Page CSS 
 
 */
 
@@ -896,7 +896,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    09. Pricing CSS
+    09. New-Updates CSS
 *****-----*****-----*****-----*****/
 
 .new-updates-area{
@@ -904,15 +904,18 @@ input:-moz-placeholder {
     padding-bottom: 10px;
     margin-right: 15px;
     cursor: all-scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 
   .new-updates-area .cover .overlay {
     height: 250px;
     padding-top: 60px;
     opacity: 0;
-    background: rgba(0, 168, 255, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     -webkit-transition: opacity 0.45s ease;
     transition: opacity 0.45s ease;
+    
   }
 
   #new-updates {
@@ -939,6 +942,7 @@ input:-moz-placeholder {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    
   }
 
   @media (min-width: 768px) {
@@ -978,7 +982,7 @@ input:-moz-placeholder {
   }
 
 /*****-----*****-----*****-----*****
-    09. Pricing CSS
+    10. Pricing CSS
 *****-----*****-----*****-----*****/
 .pricing-table {
     background: #EFF7FE;
@@ -1081,7 +1085,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    10. Ticket CSS
+    11. Ticket CSS
 *****-----*****-----*****-----*****/
 .ticket-area {
     padding: 150px 0;
@@ -1116,7 +1120,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    11. Schedule CSS
+    12. Schedule CSS
 *****-----*****-----*****-----*****/
 .schedule-area {
     padding: 150px 0;
@@ -1185,7 +1189,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    12. Venue CSS
+    13. Venue CSS
 *****-----*****-----*****-----*****/
 .venue-area {
     padding: 150px 0 120px;
@@ -1244,7 +1248,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    13. Gallery CSS
+    14. Gallery CSS
 *****-----*****-----*****-----*****/
 .gallery-area {
     padding: 150px 0;
@@ -1354,7 +1358,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    14. Counter CSS
+    15. Counter CSS
 *****-----*****-----*****-----*****/
 .counter-area {
     padding: 150px 0 120px;
@@ -1422,7 +1426,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    15. Blog CSS
+    16. Blog CSS
 *****-----*****-----*****-----*****/
 .blog-area {
     padding: 150px 0 120px;
@@ -1646,7 +1650,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    16. Sponsor CSS
+    17. Sponsor CSS
 *****-----*****-----*****-----*****/
 .sponsor-area {
     padding: 150px 0 120px; 
@@ -1665,7 +1669,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    17. Contact CSS
+    18. Contact CSS
 *****-----*****-----*****-----*****/
 .contact-area {
     padding: 150px 0 120px;
@@ -1762,7 +1766,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    18. Page title CSS
+    19. Page title CSS
 *****-----*****-----*****-----*****/
 .page-title-section {
     padding: 150px 0 150px;
@@ -1791,7 +1795,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    19. Footer CSS
+    20. Footer CSS
 *****-----*****-----*****-----*****/
 .footer-area {
     padding: 150px 0 0;
@@ -1838,7 +1842,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    20. Dark Version CSS 
+    21. Dark Version CSS 
 *****-----*****-----*****-----*****/
 .dark-version {
     background: #000000;
@@ -1900,7 +1904,7 @@ input:-moz-placeholder {
 
 
 /*****-----*****-----*****-----*****
-    21. Demo List Page CSS 
+    22. Demo List Page CSS 
 *****-----*****-----*****-----*****/
 .main-demo-heading {
     padding: 120px 0;
