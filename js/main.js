@@ -4,7 +4,7 @@
 
     // Preloader
     $(window).on('load', function() { 
-      $('#preloader').delay(50).fadeOut('slow'); 
+      $('#preloader').delay(15).fadeOut('slow'); 
     })
 
     // Wow Animation
