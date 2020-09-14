@@ -46,7 +46,7 @@
 
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css"
-    href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cRaleway:300,400,400i,500,600,700,900" />
+        href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cRaleway:300,400,400i,500,600,700,900" />
 
     <!-- MASTER  STYLESHEET  -->
     <link id="lgx-master-style" rel="stylesheet" href="css/style-default.min.css" media="all" />
@@ -118,6 +118,20 @@
             background: #007bb5;
             color: white;
         }
+        
+        .fa-youtube {
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2.5px 1px;
+            border-radius: 50%;
+
+            width: 40px;
+
+            background: #FF0000;
+            color: white;
+        }
 
         @media screen and (max-width: 1600px) and (min-width: 1367px) {
             #mediadiv {
@@ -140,32 +154,40 @@
                 height: 50vh !important;
             }
         }
+
+        /* @media screen and (max-width: 480px){
+            img .picture{
+                height: 350px;
+                width: 350px;
+            }
+        } */
+
         #btnv {
-          position: absolute;
-          top: 75%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          background-color: #555;
-          color: white;
-          font-size: 16px;
-          padding: 12px 24px;
-          border: none;
-          cursor: pointer;
-          border-radius: 15px;
-          text-align: center;
-      }
-  </style>
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px;
+            text-align: center;
+        }
+    </style>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152815181-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152815181-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-152815181-1');
-</script>
+        gtag('config', 'UA-152815181-1');
+    </script>
 
 
 
@@ -183,44 +205,39 @@
                 <a class="navbar-brand">
 
                     <img class="logo-black" src="images/logo-black.png" id="logo2" alt=""
-                    style="width:52px;height:58px; !important">
+                        style="width:52px;height:58px; !important">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll active" href="#page-top">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#schedules">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#speakers">Our Team</a>
-                    </li>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll active" href="#page-top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#schedules">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#speakers">Our Team</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="dec.html" target="_blank">DEC</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="./esummit/index.html" target="_blank">ESummit'20</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="volunteer.html" target="_blank">Volunteer</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="blog2.html" target="_blank">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="./esummit/index.html" target="_blank">ESummit'20</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                     <!-- <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
@@ -275,55 +292,54 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;">
-    <img src="images/blog/comingsoon.png" style="max-height:800px;" !important>
-</section>
+        <img src="images/blog/comingsoon.png" style="max-height:800px;" !important>
+    </section>
 
-<!-- About Start -->
-<section class="about-area" id="about">
-    <div class="shep-right">
-        <img src="images/shep-right.png" alt="">
-    </div>
-    <div class="shep-left">
-        <img src="images/shep-left.png" alt="">
-    </div>
-    <div class="container" style="padding: 30px;">
-        <div class="row">
-            <div class="col-xl-6 col-lg-12">
-                <div class="about-col">
-                    <h2>About <span style="  text-transform: none;!important">eCellNSUT</span></h2>
-                    <p>One might think that the capabilities of an entrepreneurship cell is limited to gathering
-                        accolades in
-                        competitions, but here at eCell NSUT, we take it as a challenge to propel our ideas to
-                        greater
-                        heights. We take initiatives to develop and adapt ourselves into the changing popular market
-                        culture, while having a strong hold over our core and foundational values, irrespective of
-                        our
-                        predicament.
-                    </p>
-                    <br>
-                    <p>
-                        eCell NSUT has been successful in creating a space for itself in the entrepreneurial circuit
-                        of India
-                        and cross borders as well.
-                        As one of the most active and cross-functional entrepreneurship entities of Delhi, our
-                        mission is to
-                        work on different projects and start-ups while becoming the most approachable eCell.
-                    </p>
+    <!-- About Start -->
+    <section class="about-area" id="about">
+        <div class="shep-right">
+            <img src="images/shep-right.png" alt="">
+        </div>
+        <div class="shep-left">
+            <img src="images/shep-left.png" alt="">
+        </div>
+        <div class="container" style="padding: 30px;">
+            <div class="row">
+                <div class="col-xl-6 col-lg-12">
+                    <div class="about-col">
+                        <h2>About <span style="  text-transform: none;!important">eCellNSUT</span></h2>
+                        <p>One might think that the capabilities of an entrepreneurship cell is limited to gathering
+                            accolades in
+                            competitions, but here at eCell NSUT, we take it as a challenge to propel our ideas to
+                            greater
+                            heights. We take initiatives to develop and adapt ourselves into the changing popular market
+                            culture, while having a strong hold over our core and foundational values, irrespective of
+                            our
+                            predicament.
+                        </p>
+                        <br>
+                        <p>
+                            eCell NSUT has been successful in creating a space for itself in the entrepreneurial circuit
+                            of India
+                            and cross borders as well.
+                            As one of the most active and cross-functional entrepreneurship entities of Delhi, our
+                            mission is to
+                            work on different projects and start-ups while becoming the most approachable eCell.
+                        </p>
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-6 col-lg-8">
-                <div class="about-col" style="padding-top: 70px;">
-                    <iframe id="video" width="100%" height="330px" src="https://www.youtube.com/embed/jXW5kRf1QqM">
-                    </iframe>
+                <div class="col-xl-6 col-lg-8">
+                    <div class="about-col" style="padding-top: 70px;">
+                        <iframe id="video" width="100%" height="330px" src="https://www.youtube.com/embed/G1yTy6-NhC8"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-<!-- Initiatives -->
+    <!-- Initiatives -->
     <!-- <section class="ticket-area jarallax over-layer-black" id="initiatives">
         <img class="jarallax-img" src="images/bg/3.jpg" alt="">
         <div class="container">
@@ -415,7 +431,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2>Hightlight <span>Events</span></h2>
+                        <h2>Highlight <span>Events</span></h2>
                     </div>
                 </div>
             </div>
@@ -441,416 +457,626 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="esummit/index.html"
-                                                    target="_blank">ESUMMIT'20</a></h4>
-                                                    <p>
-                                                        Entrepreneurship Summit is the brainchild of E-Cell, NSUT. Aiming at inculcation and development the very spirit of entreneurship, eCell NSUT comes up with its annual affair to stir an essence of teamwork and synergy in the masses. 
-                                                    </p>
-                                                    <a href="esummit/index.html" target="_blank"
+                                                <h4><a href="esummit/index.html" target="_blank">ESUMMIT'20</a></h4>
+                                                <p>
+                                                    Entrepreneurship Summit is the brainchild of E-Cell, NSUT. Aiming at
+                                                    inculcation and development the very spirit of entreneurship, eCell
+                                                    NSUT comes up with its annual affair to stir an essence of teamwork
+                                                    and synergy in the masses.
+                                                </p>
+                                                <a href="esummit/index.html" target="_blank"
                                                     class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
-                                                </div>
                                             </div>
+                                        </div>
 
-                                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                                <div class="blog-col ">
-                                                    <div class="blog-img">
-                                                        <img src="images\blog\esummit'19 (2).jpg" alt="">
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <div class="blog-col ">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\esummit'19 (2).jpg" alt="">
 
-                                                        <div class="overlay"></div>
-                                                    </div>
+                                                    <div class="overlay"></div>
+                                                </div>
 
-                                                    <h4><a href="EsummitArchives/E9/index.html"
+                                                <h4><a href="EsummitArchives/E9/index.html"
                                                         target="_blank">ESUMMIT'19</a></h4>
-                                                        <p>
-                                                            Entrepreneurship Summit is the brinchild of E-Cell, NSUT. E-Summit
-                                                            NSUT is an event that is known throughout India for being
-                                                            one of a kind.
-                                                            It’s where a myriad of the brightest minds come to test themselves.
-                                                        </p>
-                                                        <a href="EsummitArchives/E19/index.html" target="_blank"
-                                                        class="btn btn-default btn-style btn-color"
-                                                        style="font-size:16px  !important;">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                    <div class="blog-col ">
-                                                        <div class="blog-img">
-                                                            <img src="images\blog\esummit'18.jpg" alt="">
-
-                                                            <div class="overlay"></div>
-                                                        </div>
-
-                                                        <h4><a href="EsummitArchives/E18/index.html"
-                                                            target="_blank">ESUMMIT'18</a></h4>
-                                                            <p> Under E-Summit, we hold activities ranging from skill enhancing group
-                                                                discussions and case studies to
-                                                                cerebral strategy testing events and speaker sessions from extremely
-                                                                successful entrepreneurship giants.
-                                                            </p>
-                                                            <a href="EsummitArchives/E18/index.html" target="_blank"
-                                                            class="btn btn-default btn-style btn-color"
-                                                            style="font-size:16px  !important;">Read More</a>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
+                                                <p>
+                                                    Entrepreneurship Summit is the brinchild of E-Cell, NSUT. E-Summit
+                                                    NSUT is an event that is known throughout India for being
+                                                    one of a kind.
+                                                    It’s where a myriad of the brightest minds come to test themselves.
+                                                </p>
+                                                <a href="EsummitArchives/E19/index.html" target="_blank"
+                                                    class="btn btn-default btn-style btn-color"
+                                                    style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
-                                        <div id="panel2" class="panel">
-                                            <div class="container">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-lg-6 col-md-8 col-sm-12">
-                                                        <div class="blog-col">
-                                                            <div class="blog-img">
-                                                                <img src="images\blog\Copy of IMG_20191018_103343.jpg" alt="">
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <div class="blog-col ">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\esummit'18.jpg" alt="">
 
-                                                                <div class="overlay"></div>
-                                                            </div>
-
-                                                            <h4><a href="Ideathon-18.html" target="_blank">IDEATHON'18</a></h4>
-                                                            <p> Ideathon is an inter college event held during the technical fest of
-                                                                NSUT - Innovision, which comprises of
-                                                                brainstorming sessions and developing of businesses from scratch to
-                                                                land with an end product and a
-                                                            business strategy to generate revenue from it. </p>
-                                                            <a href="Ideathon-18.html" target="_blank"
-                                                            class="btn btn-default btn-style btn-color"
-                                                            style="font-size:16px  !important;">Read More</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-md-8 col-sm-12">
-                                                        <div class="blog-col ">
-                                                            <div class="blog-img">
-                                                                <img src="images\blog\IMG_20191018_182902.jpg" alt="">
-
-                                                                <div class="overlay"></div>
-                                                            </div>
-
-                                                            <h4><a href="Ideathon-19.html" target="_blank">IDEATHON'19</a></h4>
-                                                            <p>Ecell nsut has often been appraised and appreciated for its efficient
-                                                                methodology to conduct the event smooth and fair. The event is
-                                                                widely
-                                                                known for the exposure it brings to the life of a budding
-                                                            entrepreneur and the confidence that comes with it. </p>
-                                                            <a href="Ideathon-19.html" target="_blank"
-                                                            class="btn btn-default btn-style btn-color"
-                                                            style="font-size:16px  !important;">Read More</a>
-                                                        </div>
-                                                    </div>
-
+                                                    <div class="overlay"></div>
                                                 </div>
+
+                                                <h4><a href="EsummitArchives/E18/index.html"
+                                                        target="_blank">ESUMMIT'18</a></h4>
+                                                <p> Under E-Summit, we hold activities ranging from skill enhancing
+                                                    group
+                                                    discussions and case studies to
+                                                    cerebral strategy testing events and speaker sessions from extremely
+                                                    successful entrepreneurship giants.
+                                                </p>
+                                                <a href="EsummitArchives/E18/index.html" target="_blank"
+                                                    class="btn btn-default btn-style btn-color"
+                                                    style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
-                                        <div id="panel3" class="panel">
-                                            <div class="container">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-lg-4 col-md-6 col-sm-12">
-                                                        <div class="blog-col ">
-                                                            <div class="blog-img">
-                                                                <img src="images\blog\11h21m31 07-02-2016.JPG" alt="">
 
-                                                                <div class="overlay"></div>
-                                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="panel2" class="panel">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-sm-12">
+                                            <div class="blog-col ">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\IMG_20191018_182902.jpg" alt="">
 
-                                                            <h4><a href="Workshops.html#work1" target="_blank"> Informative
-                                                            Workshops </a>
-                                                        </h4>
-                                                        <p> We collabrate with esteemed institutes to brief students about the
-                                                            various skills required to crack an aptitude exam and help clear all
-                                                            their doubts about GATE, GRE, GMAT, and other such competitive
-                                                            exams.
-                                                        </p>
-                                                        <a href="Workshops.html#work1" target="_blank"
-                                                        class="btn btn-default btn-style btn-color"
-                                                        style="font-size:16px  !important;">Read More</a>
-                                                    </div>
+                                                    <div class="overlay"></div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6 col-sm-12">
-                                                    <div class="blog-col ">
-                                                        <div class="blog-img">
-                                                            <img src="images\blog\IMG_20191018_103331.jpg" alt="">
 
-                                                            <div class="overlay"></div>
-                                                        </div>
+                                                <h4><a href="Ideathon-19.html" target="_blank">IDEATHON'19</a></h4>
+                                                <p>Ecell nsut has often been appraised and appreciated for its efficient
+                                                    methodology to conduct the event smooth and fair. The event is
+                                                    widely
+                                                    known for the exposure it brings to the life of a budding
+                                                    entrepreneur and the confidence that comes with it. </p>
+                                                <a href="Ideathon-19.html" target="_blank"
+                                                    class="btn btn-default btn-style btn-color"
+                                                    style="font-size:16px  !important;">Read More</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-8 col-sm-12">
+                                            <div class="blog-col">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\Copy of IMG_20191018_103343.jpg" alt="">
 
-                                                        <h4><a href="Workshops.html#work2" target="_blank">Case Study Sessions
-                                                        </a>
-                                                    </h4>
-                                                    <p>eCell NSUT, provides platform where we inform and guide the college
-                                                        students, in order to tackle the case study, which would help them
+                                                    <div class="overlay"></div>
+                                                </div>
+
+                                                <h4><a href="Ideathon-18.html" target="_blank">IDEATHON'18</a></h4>
+                                                <p> Ideathon is an inter college event held during the technical fest of
+                                                    NSUT - Innovision, which comprises of
+                                                    brainstorming sessions and developing of businesses from scratch to
+                                                    land with an end product and a
+                                                    business strategy to generate revenue from it. </p>
+                                                <a href="Ideathon-18.html" target="_blank"
+                                                    class="btn btn-default btn-style btn-color"
+                                                    style="font-size:16px  !important;">Read More</a>
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="panel3" class="panel">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <div class="blog-col ">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\11h21m31 07-02-2016.JPG" alt="">
+
+                                                    <div class="overlay"></div>
+                                                </div>
+
+                                                <h4><a href="Workshops.html#work1" target="_blank"> Informative
+                                                        Workshops </a>
+                                                </h4>
+                                                <p> We collabrate with esteemed institutes to brief students about the
+                                                    various skills required to crack an aptitude exam and help clear all
+                                                    their doubts about GATE, GRE, GMAT, and other such competitive
+                                                    exams.
+                                                </p>
+                                                <a href="Workshops.html#work1" target="_blank"
+                                                    class="btn btn-default btn-style btn-color"
+                                                    style="font-size:16px  !important;">Read More</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <div class="blog-col ">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\IMG_20191018_103331.jpg" alt="">
+
+                                                    <div class="overlay"></div>
+                                                </div>
+
+                                                <h4><a href="Workshops.html#work2" target="_blank">Case Study Sessions
+                                                    </a>
+                                                </h4>
+                                                <p>eCell NSUT, provides platform where we inform and guide the college
+                                                    students, in order to tackle the case study, which would help them
                                                     in future. </p>
 
 
-                                                    <a href="Workshops.html#work2" target="_blank"
+                                                <a href="Workshops.html#work2" target="_blank"
                                                     class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
-                                                </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                                <div class="blog-col">
-                                                    <div class="blog-img">
-                                                        <img src="images\blog\workshopsp.jpg" alt="">
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <div class="blog-col">
+                                                <div class="blog-img">
+                                                    <img src="images\blog\workshopsp.jpg" alt="">
 
-                                                        <div class="overlay"></div>
-                                                    </div>
+                                                    <div class="overlay"></div>
+                                                </div>
 
-                                                    <h4><a href="Workshops.html#work3" target="_blank"> Entrepreneurship
+                                                <h4><a href="Workshops.html#work3" target="_blank"> Entrepreneurship
                                                         talk
-                                                    sessions </a></h4>
-                                                    <p> eCell NSUT, organise sessions about entrepreneurship where we
+                                                        sessions </a></h4>
+                                                <p> eCell NSUT, organise sessions about entrepreneurship where we
                                                     discuss startup ideas with all the startup enthusiasts.</p>
-                                                    <br>
-                                                    <br>
-                                                    <a href="Workshops.html#work3" target="_blank"
+                                                <br>
+                                                <br>
+                                                <a href="Workshops.html#work3" target="_blank"
                                                     class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
-                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team -->
-        <section class="speakers-area" id="speakers">
-            <div class="shep-right">
-                <img src="images/shep-right.png" alt="">
-            </div>
-            <div class="shep-left">
-                <img src="images/shep-left.png" alt="">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h2>our <span>team</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="speaker-carousel speaker-box" id="mediadiv">
-                            <div class="our-speaker spheight">
-                                <img src="images/speaker/yugansh.jpg" alt="">
-                                <ul class="social">
-                                    <li><a target="_blank" href="https://www.facebook.com/yugansh.entrepreneur"
-                                        class="fab fa-facebook-f"></a></li>
-
-                                        <li><a target="_blank" href="mailto:yuganshc@gmail.com" class="fa fa-envelope-o"></a>
-                                        </li>
-                                        <li><a target="_blank" href="https://www.linkedin.com/in/yuganshchokra/"
-                                            class="fab fa-linkedin-in"></a></li>
-                                        </ul>
-                                        <div class="team-content">
-                                            <h3 class="title">Yugansh Chokra</h3>
-                                            <span class="post">President, eCellNSUT</span>
-                                        </div>
-                                    </div>
-                                    <div class="our-speaker spheight">
-                                        <img src="images/speaker/akshay.jpg" alt="">
-                                        <ul class="social">
-                                            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100001585037216"
-                                                class="fab fa-facebook-f"></a></li>
-
-                                                <li><a target="_blank" href="mailto:Akshay.98.raj@gmail.com"
-                                                    class="fa fa-envelope-o"></a></li>
-                                                    <li><a target="_blank" href="https://www.linkedin.com/in/akshayraj26/"
-                                                        class="fab fa-linkedin-in"></a></li>
-                                                    </ul>
-                                                    <div class="team-content">
-                                                        <h3 class="title">Akshay Raj</h3>
-                                                        <span class="post">Vice President, eCellNSUT</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-
-                            <!-- Contact start -->
-                            <section class="contact-area" id="contact">
-                                <div class="shep-right">
-                                    <img src="images/shep-right.png" alt="">
-                                </div>
-                                <div class="shep-left">
-                                    <img src="images/shep-left.png" alt="">
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="section-title">
-                                                <h2>Get in <span>touch</span></h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
-                                                <div class="info-box">
-                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                    Netaji Subhas University Of Technology, Dwarka Sector-3, Dwarka, Delhi
-                                                    <div class="box-bdr"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                                                <div class="info-box">
-                                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                                    <p>Yugansh Chokra: 9873546776 </p>
-                                                    <p>Karan Jain: &nbsp;&nbsp; &nbsp; 7042049400</p>
-                                                    <br>
-                                                    <div class="box-bdr"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
-                                                <div class="info-box">
-                                                    <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                                                    <p>ecell.care@gmail.com</p>
-                                                    <br><br>
-                                                    <div class="box-bdr"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-12">
-                                            <div class="col-default text-center">
-                                                <div id="form-messages"></div>
-                                                <form class="gform pure-form pure-form-stacked" method="POST"
-                                                action="https://script.google.com/macros/s/AKfycby2TIXSw1dlkERojWmAr6aiOrvAlsT-H8lqlky6jYSi2cwaRhdQ/exec">
-                                                <div class="form-row form-elements1">
-                                                    <div class="col-md-6">
-                                                        <input type="text" class="form-control" style="font-size:16px  !important;"
-                                                        id="name" name="name" placeholder="Your Name" required>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <input type="email" class="form-control" style="font-size:16px  !important;"
-                                                        id="email" name="email" placeholder="Email" required>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <input type="text" class="form-control" style="font-size:16px  !important;"
-                                                        id="subject" name="subject" placeholder="Subject" required>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <input type="text" class="form-control" style="font-size:16px  !important;"
-                                                        id="numbar" name="phone" placeholder="Phone" required>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <textarea class="form-control textarea-hight-full"
-                                                        style="font-size:16px  !important;" id="message" name="message" rows="3"
-                                                        placeholder="Message" required></textarea>
-                                                    </div>
-                                                    <div class="col-md-12 text-left center991">
-                                                        <button class="btn btn-default btn-style btn-color"
-                                                        style="font-size:16px  !important;" type="submit">Send Message</button>
-                                                    </div>
-                                                </div>
-
-
-                                                <!-- Customise the Thankyou Message People See when they submit the form: -->
-                                                <div class="thankyou_message" style="display:none;margin-top: 25%;">
-                                                    <h2><em>Thanks</em> for contacting us!<br>
-                                                    We will get back to you soon!</h2>
-                                                </div>
-
-
-
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="col-default map-col">
-
-                                            <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28020.647773040255!2d77.034732!3d28.612345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x108adaa3abe4bd07!2sNetaji+Subhas+University+Of+Technology!5e0!3m2!1sen!2sus!4v1550261676726"
-                                            frameborder="0" style="border:0; width:100%; height:350px;"></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
 
-                        <!-- Newsletter start -->
-                        <footer class="footer-area over-layer-white" style="padding: 0; margin: 0; ">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-6 col-md-10">
-                                        <div class="footer-col">
-                                            <ul style="margin-bottom: 2vh; margin-top:2vh;">
-                                                <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0s"><a target="_blank"
-                                                    href="https://www.facebook.com/ecell.nsut/" class="fa fa-facebook"></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                                                    <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s"><a target="_blank"
-                                                        href="https://www.instagram.com/ecell.nsut/?hl=en" class="fa fa-instagram"></a></li>
+    <!-- New Updates -->
 
-                                                        <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.8s"><a target="_blank"
-                                                            href="https://in.linkedin.com/company/ecell-nsit-the-entrepreneurship-cell-of-nsit-"
-                                                            class="fa fa-linkedin"></a></li>
-                                                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1s"><a target="_blank"
-                                                                href="mailto:ecell.care@gmail.com" class="fa fa-envelope"></a></li>
+    <section class="new-update-area" id="new-updates">
+        <div class="shep-right">
+            <img src="images/shep-right.png" alt="">
+        </div>
+        <div class="shep-left">
+            <img src="images/shep-left.png" alt="">
+        </div>
 
-                                                            </ul>
-                                                            <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>New <span> Updates</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                                                                <p style="font-size: small; padding: 0; margin: 0;">Copyright © 2019 <span
-                                                                    style='color:#E59500;'>eCell NSUT</span>. All Rights Reserved.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
 
-                                            </footer>
 
-                                            <!-- modernizr -->
-                                            <script src="js/modernizr-2.6.2.min.js"></script>
+        <div class="container1">
+            <div class="owl-carousel owl-theme" style="padding-right:0px;padding-left:0px;">
+                <div class="item" style="width: 100%;">
+                    <div class="new-updates-area text-center" style="text-align: center;">
+                        <div class="cover" style="background:url(''); background-size:cover;">
+                        </div><img class="avatar" src="images/venue.jpg" alt="Team Image">
+                        <div class="title">
+                            <h4>Title</h4>
+                            <p style="font-size: small;"><b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                                </b></p>
+                        </div>
+                    </div>
+                </div>
 
-                                            <!-- jQuery -->
-                                            <script src="js/jquery.min.js"></script>
+                <div class="item" style="width: 100%;">
+                    <div class="new-updates-area text-center" style="text-align: center;">
+                        <div class="cover" style=" background-size:cover;">
+                        </div><img class="avatar" src="images/venue.jpg" alt="Team Image">
+                        <div class="title">
+                            <h4>Title</h4>
+                            <p style="font-size: small;"><b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                                </b></p>
+                        </div>
+                    </div>
+                </div>
 
-                                            <!-- popper.min -->
-                                            <script src="js/popper.min.js"></script>
+                <div class="item" style="width: 100%;">
+                    <div class="new-updates-area text-center" style="text-align: center;">
+                        <div class="cover" style=" background-size:cover;">
+                        </div><img class="avatar" src="images/venue.jpg" alt="Team Image">
+                        <div class="title">
+                            <h4>Title</h4>
+                            <p style="font-size: small;"><b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                                </b></p>
+                        </div>
+                    </div>
+                </div>
 
-                                            <!-- Bootstrap Core JavaScript -->
-                                            <script src="js/bootstrap.min.js"></script>
+                <div class="item" style="width: 100%;">
+                    <div class="new-updates-area text-center" style="text-align: center;">
+                        <div class="cover" style=" background-size:cover;">
+                        </div><img class="avatar" src="images/venue.jpg" alt="Team Image">
+                        <div class="title">
+                            <h4>Title</h4>
+                            <p style="font-size: small;"><b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                                </b></p>
+                        </div>
+                    </div>
+                </div>
 
-                                            <!-- All Included JavaScript -->
-                                            <script src="js/jquery.easing.min.js"></script>
-                                            <script src="js/scrolling-nav.js"></script>
-                                            <script src="js/animated-text.js"></script>
-                                            <script src="js/jquery.waypoints.min.js"></script>
-                                            <script src="js/jquery.countup.min.js"></script>
-                                            <script src="js/jarallax.min.js"></script>
-                                            <script src="js/dyscrollup.js"></script>
-                                            <script src="js/owl.carousel.min.js"></script>
-                                            <script src="js/wow.min.js"></script>
-                                            <script src="js/jquery.mb.YTPlayer.min.js"></script>
-                                            <script src="js/jquery.ripples.js"></script>
-                                            <script src="js/jquery.zoomslider.min.js"></script>
-                                            <script src="js/countdown.js"></script>
-                                            <script src="js/tabs.js"></script>
-                                            <script src="js/lightbox.min.js"></script>
+                <div class="item" style="width: 100%;">
+                    <div class="new-updates-area text-center" style="text-align: center;">
+                        <div class="cover" style=" background-size:cover;">
+                        </div><img class="avatar" src="images/venue.jpg" alt="Team Image">
+                        <div class="title">
+                            <h4>Title</h4>
+                            <p style="font-size: small;"><b>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                                </b></p>
+                        </div>
+                    </div>
+                </div>
 
-                                            <!-- Google map -->
-                                            <script src="js/google-map.js"></script>
-                                            <script async defer
-                                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdEPAHqgxFK5pioDAB3rsvKchAtXxRGO4&amp;callback=initMap"></script>
 
-                                            <!-- Custom Js -->
-                                            <script src="js/main.js"></script>
+            </div>
+        </div>
+    </section>
 
-                                            <!-- AJAX Contact Form Using -->
-                                            <script src="js/app.js"></script>
-                                            <script data-cfasync="false" src="js/form-submission-handler.js"></script>
-        </body>
+    <!-- Team -->
+    <section class="speakers-area" id="speakers">
+        <div class="shep-right">
+            <img src="images/shep-right.png" alt="">
+        </div>
+        <div class="shep-left">
+            <img src="images/shep-left.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>our <span>team</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="speaker-carousel speaker-box" style="padding-left: 0;" id="mediadiv" >
+                        <div class="our-speaker spheight">
+                            <img   src="esummit/img/team/1.jpg" style="height: 280px;"  alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/karan-jain-0442b1150/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Karan Jain</h3>
+                                <span class="post">President, eCellNSUT</span>
+                            </div>
+                        </div>
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/3.jpg" alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/amartya1609/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Amartya Palash</h3>
+                                <span class="post">Vice President, eCellNSUT</span>
+                            </div>
+                        </div>
+
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/5.jpg" alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/ekas-luthra-7b3443150/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Ekas Luthra</h3>
+                                <span class="post">General Secretary</span>
+                            </div>
+                        </div>
+
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/7.jpg" class="picture"  alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/achin-verma-069a82134/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Achin Verma</h3>
+                                <span class="post">Sponsorship Head</span>
+                            </div>
+                        </div>
+
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/8.jpg" alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/vansh-batra-a5a193190/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Vansh</h3>
+                                <span class="post">PR Head</span>
+                            </div>
+                        </div>
+
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/11.jpg" class="picture" alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/arorachaitanya/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Chaitanya</h3>
+                                <span class="post">Director of Tech</span>
+                            </div>
+                        </div>
+
+
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/6.jpg"  alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/lovely-chopra-91b722151/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Lovely Chopra</h3>
+                                <span class="post">Secretary</span>
+                            </div>
+                        </div>
+
+                        <div class="our-speaker spheight">
+                            <img src="esummit/img/team/0.jpeg" alt="">
+                            <ul class="social">
+                                <li><a target="_blank" href="https://www.linkedin.com/in/jahanavim/"
+                                        class="fab fa-linkedin-in"></a></li>
+                            </ul>
+                            <div class="team-content">
+                                <h3 class="title">Jahanavi Mishra</h3>
+                                <span class="post">Director of Operations</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact start -->
+    <section class="contact-area" id="contact">
+        <div class="shep-right">
+            <img src="images/shep-right.png" alt="">
+        </div>
+        <div class="shep-left">
+            <img src="images/shep-left.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>Get in <span>touch</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="info-box">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Netaji Subhas University Of Technology, Dwarka Sector-3, Dwarka, Delhi
+                            <div class="box-bdr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="info-box changes">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p>Yugansh Chokra: 9873546776 </p>
+                            <p>Karan Jain: &nbsp;&nbsp; &nbsp; 7042049400</p>
+                            <p>Chaitanya:  &nbsp;&nbsp;         9654831902</p>
+                            <p>Simranjeet: &nbsp;&nbsp; &nbsp; 9250901470</p>
+                            <br>
+                            <div class="box-bdr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="info-box">
+                            <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                            <p>ecell.care@gmail.com</p>
+                            <br><br>
+                            <div class="box-bdr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="col-default text-center">
+                        <div id="form-messages"></div>
+                        <form class="gform pure-form pure-form-stacked" method="POST"
+                            action="https://script.google.com/macros/s/AKfycby2TIXSw1dlkERojWmAr6aiOrvAlsT-H8lqlky6jYSi2cwaRhdQ/exec">
+                            <p class="further" style="text-align:left"><strong> Place <span style="color: #E59500;"> Your </span> Queries :</strong></p>
+                            <div class="form-row form-elements1">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" style="font-size:16px  !important;"
+                                        id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" style="font-size:16px  !important;"
+                                        id="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" style="font-size:16px  !important;"
+                                        id="subject" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" style="font-size:16px  !important;"
+                                        id="numbar" name="phone" placeholder="Phone" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control textarea-hight-full"
+                                        style="font-size:16px  !important;" id="message" name="message" rows="3"
+                                        placeholder="Message" required></textarea>
+                                </div>
+                                <div class="col-md-12 text-left center991">
+                                    <button class="btn btn-default btn-style btn-color"
+                                        style="font-size:16px  !important;" type="submit">Send Message</button>
+                                </div>
+                            </div>
+
+
+                            <!-- Customise the Thankyou Message People See when they submit the form: -->
+                            <div class="thankyou_message" style="display:none;margin-top: 25%;">
+                                <h2><em>Thanks</em> for contacting us!<br>
+                                    We will get back to you soon!</h2>
+                            </div>
+
+
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="col-default map-col">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28020.647773040255!2d77.034732!3d28.612345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x108adaa3abe4bd07!2sNetaji+Subhas+University+Of+Technology!5e0!3m2!1sen!2sus!4v1550261676726"
+                            frameborder="0" style="border:0; width:100%; height:350px;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter start -->
+    <footer class="footer-area over-layer-white" style="padding: 0; margin: 0; ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="footer-col">
+                        <ul style="margin-bottom: 2vh; margin-top:2vh;">
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0s"><a target="_blank"
+                                    href="https://www.facebook.com/ecell.nsut/" class="fa fa-facebook"></a></li>
+
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s"><a target="_blank"
+                                    href="https://www.instagram.com/ecell.nsut/?hl=en" class="fa fa-instagram"></a></li>
+
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.8s"><a target="_blank"
+                                    href="https://in.linkedin.com/company/ecell-nsit-the-entrepreneurship-cell-of-nsit-"
+                                    class="fa fa-linkedin"></a></li>
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1s"><a target="_blank"
+                                    href="mailto:ecell.care@gmail.com" class="fa fa-envelope"></a></li>        
+                        
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1s"><a target="_blank"
+                                href="https://spoti.fi/2XZedSE" class="fa fa-spotify" style="font-size: 50px;"></a>
+                            </li>  
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="1.4s"><a target="_blank"
+                                href="https://www.youtube.com/channel/UC7oScLX2Ce5JibTF93Xtaxg" class="fa fa-youtube"></a></li>
+                        </ul>
+
+                        <div class="copyright">
+
+                            <p style="font-size: small; padding: 0; margin: 0;">Copyright © 2019 <span
+                                    style='color:#E59500;'>eCell NSUT</span>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- modernizr -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- All Included JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/animated-text.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/dyscrollup.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.ripples.js"></script>
+    <script src="js/jquery.zoomslider.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/lightbox.min.js"></script>
+
+    <!--Owl Carousel for New Updates-->
+    <script type="text/javascript">
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            loop: true,
+            margin: 10,
+            navigation: true,
+            autoPlay: true,
+            items: 3,
+            navigationText: [
+                "<i class='fa fa-chevron-left'></i>",
+                "<i class='fa fa-chevron-right'></i>"
+            ],
+            autoplayTimeout: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+
+
+    <!-- Google map -->
+    <script src="js/google-map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdEPAHqgxFK5pioDAB3rsvKchAtXxRGO4&amp;callback=initMap"></script>
+
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+
+    <!-- AJAX Contact Form Using -->
+    <script src="js/app.js"></script>
+    <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+</body>
 
 </html>
