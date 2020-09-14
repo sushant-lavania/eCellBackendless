@@ -274,6 +274,21 @@
 
 }
 
+/*insights media query*/
+@media only screen and (max-width:991px){
+        article.card_container {
+        display: flex;
+        height: 20em;    
+    }
+    article.card_container .card-content p{ 
+        font-size: 0.5em;
+    }
+    .insights .card_container .card-img:hover .card-content{
+    height: 17.65em;
+    }
+}
+/*insights media query end*/
+
 
 @media only screen and (max-width:320px) {
 	
