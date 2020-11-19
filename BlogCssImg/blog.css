@@ -157,20 +157,14 @@ section.recently-published {
         height: auto;
         margin-bottom: 18px;
     }
-    article.card_container .card_pic {
-        width: 40%;
-        flex: 0 0 40%;
-        min-height: inherit;
-    }
     .card-content .card-title {
         font-size: 16px;
         margin: 15px 0;
         line-height: 1.3;
     }
     
-    article.card_container.featured-article .card-content .card-title {
-    font-size: 16px;
-    margin: 15px 0;
+    .card_pic {
+        display: none;
     }
     
 }
