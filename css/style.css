@@ -23,8 +23,6 @@ Author Name: xcodesolution (https://themeforest.net/user/xcodesolution)
 07. Organizer CSS
 08. Speakers CSS
 09. New Updates
-10. Pricing CSS
-11. Ticket CSS
 12. Schedule CSS
 13. Venue CSS
 14. Gallery CSS
@@ -821,7 +819,7 @@ input:-moz-placeholder {
     transform: translateY(-50%) rotate(-12deg);
     transition: all 0.8s ease 0s;
 }
-.our-speaker:hover .social{ top: 60%; }
+.our-speaker:hover .social{ top: 74%; }
 .our-speaker .social li{ display: inline-block; }
 .our-speaker .social li a{
     width: 35px;
@@ -834,7 +832,7 @@ input:-moz-placeholder {
 }
 .our-speaker .team-content{
     width: 100%;
-    padding: 20px 25px;
+    padding: 5px 5px;
     background: #f5f5f5;
     position: absolute;
     bottom: 0;
