@@ -43,16 +43,16 @@ Author Name: xcodesolution (https://themeforest.net/user/xcodesolution)
 *****-----*****-----*****-----*****/
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,600i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700,700i,800,800i,900,900i');
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,600i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700,700i,800,800i,900,900i");
 
 /*****-----*****-----*****-----*****
     02. General CSS 
 *****-----*****-----*****-----*****/
 body {
     background: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -66,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #2d2d2d;
     line-height: 1.1;
     font-weight: 600;
@@ -80,7 +80,7 @@ p {
     padding: 0;
     letter-spacing: 0.5px;
 }
-a { 
+a {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -113,7 +113,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 
 /* Form CSS */
 .form-control {
@@ -174,7 +173,6 @@ input:-moz-placeholder {
     color: #111111 !important;
 }
 
-
 .section-default {
     padding: 120px 0 90px;
     position: relative;
@@ -184,7 +182,7 @@ input:-moz-placeholder {
 }
 
 /* Btn CSS */
-.btn-style{
+.btn-style {
     background: #111111;
     color: #ffffff;
     /*font-weight: 600;*/
@@ -207,7 +205,7 @@ input:-moz-placeholder {
     z-index: -1;
     transition: all 0.6s ease 0s;
 }
-.btn-style:after{
+.btn-style:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -217,22 +215,21 @@ input:-moz-placeholder {
     z-index: -1;
     transition: all 0.6s ease 0s;
 }
-.btn-style:hover:before{
+.btn-style:hover:before {
     border-width: 130px 0 0 130px;
 }
-.btn-style:hover:after{
+.btn-style:hover:after {
     border-width: 0 0 130px 130px;
 }
-.btn-style:hover{
-    color:#ffffff;
+.btn-style:hover {
+    color: #ffffff;
 }
-.btn-color:before{
+.btn-color:before {
     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e59500;
 }
-.btn-color:after{
+.btn-color:after {
     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e59500;
 }
-
 
 /* Background Over Layer CSS */
 .over-layer-black {
@@ -262,15 +259,13 @@ input:-moz-placeholder {
     background-color: rgba(255, 255, 255, 0.85);
 }
 
-
-
 /* Section Title CSS */
 .section-title {
     text-align: center;
     margin-bottom: 50px;
 }
 .section-title h2 {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     font-size: 50px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -307,21 +302,17 @@ input:-moz-placeholder {
     height: 40px;
 }
 
-
 /* Preloader CSS */
-#preloader { 
-    position: fixed; 
-    left: 0; 
-    top: 0; 
-    z-index: 99999999; 
-    width: 100%; 
-    height: 100%; 
-    overflow: visible; 
-    background: #ffffff url('../images/preloader.gif') no-repeat center center; 
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #ffffff url("../images/preloader.gif") no-repeat center center;
 }
-
-
-
 
 /* Scroll To Top CSS Start */
 #dyscrollup-btn {
@@ -343,8 +334,6 @@ input:-moz-placeholder {
     color: #e59500;
     font-size: 45px;
 }
-
-
 
 /*****-----*****-----*****-----*****
     03. Header CSS
@@ -396,12 +385,12 @@ input:-moz-placeholder {
     text-transform: capitalize;
     padding: 20px 0;
     margin-left: 25px;
-    letter-spacing: 0.5px; 
+    letter-spacing: 0.5px;
 }
-.main-header .navbar-light .navbar-nav .active>.nav-link, 
-.main-header .navbar-light .navbar-nav .nav-link.active, 
-.main-header .navbar-light .navbar-nav .nav-link.show, 
-.main-header .navbar-light .navbar-nav .show>.nav-link {
+.main-header .navbar-light .navbar-nav .active > .nav-link,
+.main-header .navbar-light .navbar-nav .nav-link.active,
+.main-header .navbar-light .navbar-nav .nav-link.show,
+.main-header .navbar-light .navbar-nav .show > .nav-link {
     color: #e59500;
 }
 .main-header .fixed-top {
@@ -425,10 +414,10 @@ input:-moz-placeholder {
 .main-header .navbar-light.scrolling-header .navbar-nav .nav-link {
     color: #333333;
 }
-.main-header .navbar-light.scrolling-header .navbar-nav .active>.nav-link, 
-.main-header .navbar-light.scrolling-header .navbar-nav .nav-link.active, 
-.main-header .navbar-light.scrolling-header .navbar-nav .nav-link.show, 
-.main-header .navbar-light.scrolling-header .navbar-nav .show>.nav-link {
+.main-header .navbar-light.scrolling-header .navbar-nav .active > .nav-link,
+.main-header .navbar-light.scrolling-header .navbar-nav .nav-link.active,
+.main-header .navbar-light.scrolling-header .navbar-nav .nav-link.show,
+.main-header .navbar-light.scrolling-header .navbar-nav .show > .nav-link {
     color: #e59500;
 }
 .logo-white {
@@ -443,7 +432,6 @@ input:-moz-placeholder {
 .main-header .navbar-light.scrolling-header .logo-black {
     display: block;
 }
-
 
 /* NavBar Fixed CSS */
 .top-nav-collapse {
@@ -463,8 +451,6 @@ input:-moz-placeholder {
     transition: all 0.5s ease-in-out;
 }
 
-
-
 /*****-----*****-----*****-----*****
     04. Hero CSS
 *****-----*****-----*****-----*****/
@@ -474,7 +460,7 @@ input:-moz-placeholder {
     position: relative;
 }
 .hero-area.over-layer-black:before {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 .hero-content {
     width: 100%;
@@ -486,7 +472,6 @@ input:-moz-placeholder {
     display: table-cell;
 }
 .hero-content-two {
-    
 }
 .hero-content-center-two {
     position: absolute;
@@ -496,7 +481,7 @@ input:-moz-placeholder {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
-    transform: translate(0, -50%); 
+    transform: translate(0, -50%);
 }
 .mb20 {
     margin-bottom: 20px;
@@ -531,7 +516,7 @@ input:-moz-placeholder {
     height: 150px;
 }
 .hero-col h2 {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     font-weight: normal;
     font-size: 60px;
     color: #f3f3f3;
@@ -549,12 +534,14 @@ input:-moz-placeholder {
 .countdown {
     text-transform: uppercase;
 }
-.countdown > div { display: inline-block; }
+.countdown > div {
+    display: inline-block;
+}
 .countdown > div > span {
     display: block;
     text-align: center;
 }
-.countdown-container { 
+.countdown-container {
     margin: 0 3px;
 }
 .countdown-container .countdown-heading {
@@ -619,7 +606,6 @@ input:-moz-placeholder {
     margin-left: -25px;
 }
 
-
 /*****-----*****-----*****-----*****
     05. Slider CSS
 *****-----*****-----*****-----*****/
@@ -641,13 +627,11 @@ input:-moz-placeholder {
     z-index: 99;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 .slider-area .hero-content {
     z-index: 999 !important;
 }
-
-
 
 /*****-----*****-----*****-----*****
     06. About CSS
@@ -676,7 +660,7 @@ input:-moz-placeholder {
     margin-bottom: 20px;
 }
 .about-col h2 {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     font-size: 45px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -701,13 +685,12 @@ input:-moz-placeholder {
     /*border-radius: 5px;*/
 }
 .about-col img {
-    
 }
 .history-carousel {
     margin-top: 30px;
     position: relative;
 }
-.about-col .owl-theme .owl-nav [class*=owl-] {
+.about-col .owl-theme .owl-nav [class*="owl-"] {
     padding: 5px 15px;
     border-radius: 0;
     color: #ffffff;
@@ -727,8 +710,6 @@ input:-moz-placeholder {
     margin-top: -20px;
 }
 
-
-
 /*****-----*****-----*****-----*****
     07. Organizer CSS
 *****-----*****-----*****-----*****/
@@ -736,13 +717,13 @@ input:-moz-placeholder {
     padding: 150px 0;
 }
 .organizer-area.over-layer-black:before {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 .organizer-col {
     text-align: center;
 }
 .organizer-col h2 {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     font-size: 50px;
     color: #f3f3f3;
     font-weight: normal;
@@ -750,7 +731,7 @@ input:-moz-placeholder {
     margin-bottom: 30px;
 }
 .organizer-col h1 {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     font-size: 70px;
     color: #e59500;
     font-weight: normal;
@@ -768,8 +749,6 @@ input:-moz-placeholder {
     color: #e59500;
 }
 
-
-
 /*****-----*****-----*****-----*****
     08. Speakers CSS
 *****-----*****-----*****-----*****/
@@ -778,16 +757,15 @@ input:-moz-placeholder {
     position: relative;
 }
 .speakers-area.over-layer-black:before {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 .speaker-box {
-    
 }
-.our-speaker{
+.our-speaker {
     overflow: hidden;
     position: relative;
 }
-.our-speaker:after{
+.our-speaker:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -798,15 +776,15 @@ input:-moz-placeholder {
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
-.our-speaker:hover:after{
+.our-speaker:hover:after {
     top: 0;
     opacity: 1;
 }
-.our-speaker img{
+.our-speaker img {
     width: 100%;
     height: auto;
 }
-.our-speaker .social{
+.our-speaker .social {
     width: 100%;
     list-style: none;
     padding: 0;
@@ -819,9 +797,13 @@ input:-moz-placeholder {
     transform: translateY(-50%) rotate(-12deg);
     transition: all 0.8s ease 0s;
 }
-.our-speaker:hover .social{ top: 74%; }
-.our-speaker .social li{ display: inline-block; }
-.our-speaker .social li a{
+.our-speaker:hover .social {
+    top: 74%;
+}
+.our-speaker .social li {
+    display: inline-block;
+}
+.our-speaker .social li a {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -830,7 +812,7 @@ input:-moz-placeholder {
     color: #fff;
     margin: 0 5px;
 }
-.our-speaker .team-content{
+.our-speaker .team-content {
     width: 100%;
     padding: 5px 5px;
     background: #f5f5f5;
@@ -839,8 +821,10 @@ input:-moz-placeholder {
     left: 0;
     z-index: 1;
 }
-.our-speaker:hover .team-content{ background: #f5f5f5; }
-.our-speaker .team-content:before{
+.our-speaker:hover .team-content {
+    background: #f5f5f5;
+}
+.our-speaker .team-content:before {
     content: "";
     width: 100%;
     border-right: 420px solid #f5f5f5;
@@ -850,7 +834,9 @@ input:-moz-placeholder {
     left: 0;
     z-index: 0;
 }
-.our-speaker:hover .team-content:before{ border-right-color: #f5f5f5; }
+.our-speaker:hover .team-content:before {
+    border-right-color: #f5f5f5;
+}
 /*.our-speaker .team-content:after{
     content: "";
     width: 3px;
@@ -861,19 +847,19 @@ input:-moz-placeholder {
     left: 0;
     transform: translateY(-50%);
 }*/
-.our-speaker .title{
+.our-speaker .title {
     font-size: 22px;
     color: #333;
     margin: 0;
 }
-.our-speaker .post{
+.our-speaker .post {
     display: block;
     font-weight: 400;
     color: #888;
     margin-top: 3px;
     text-transform: capitalize;
 }
-.speakers-area .owl-theme .owl-nav [class*=owl-] {
+.speakers-area .owl-theme .owl-nav [class*="owl-"] {
     padding: 5px 15px;
     border-radius: 0;
     color: #ffffff;
@@ -891,8 +877,6 @@ input:-moz-placeholder {
     top: -5px;
 }
 
-
-
 /*****-----*****-----*****-----*****
     09. New-Updates CSS
 *****-----*****-----*****-----*****/
@@ -902,96 +886,93 @@ input:-moz-placeholder {
     position: relative;
 }
 .new-update-area.over-layer-black:before {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
-.new-updates-area{
+.new-updates-area {
     margin: 80px 0;
     padding-bottom: 10px;
     margin-right: 15px;
     cursor: all-scroll;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  }
-
-  .new-updates-area .cover .overlay {
+.new-updates-area .cover .overlay {
     height: 250px;
     padding-top: 60px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.9);
     -webkit-transition: opacity 0.45s ease;
     transition: opacity 0.45s ease;
-    
-  }
+}
 
-  #new-updates {
+#new-updates {
     margin-bottom: 100px;
-  }
+}
 
-  .new-updates-area:hover .cover .overlay {
+.new-updates-area:hover .cover .overlay {
     opacity: 1;
-  }
+}
 
-  .new-updates-area .avatar {
+.new-updates-area .avatar {
     position: relative;
     z-index: 2;
     margin-top: -60px;
     width: 140px;
-  }
+}
 
-  .new-updates-area .title {
+.new-updates-area .title {
     margin: 50px 0;
-  }
+}
 
-  .container1 {
+.container1 {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .container1 {
-      width: 750px;
+        width: 750px;
     }
-  }
+}
 
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .container1 {
-      width: 970px;
+        width: 970px;
     }
-  }
+}
 
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container1 {
-      width: 1170px;
+        width: 1170px;
     }
-  }
+}
 
-  .new-updates-area img {
+.new-updates-area img {
     display: inline;
-  }
+}
 
-  .new-updates-area h4,
-  h5 {
+.new-updates-area h4,
+h5 {
     color: #333;
     margin: 10px;
-  }
+}
 
-  .new-updates-area h4 {
+.new-updates-area h4 {
     font-size: 1.5rem;
-  }
+}
 
-  .new-updates-area h5 {
+.new-updates-area h5 {
     font-size: 1.3rem;
-  }
+}
 
 /*****-----*****-----*****-----*****
     10. Pricing CSS
 *****-----*****-----*****-----*****/
 .pricing-table {
-    background: #EFF7FE;
+    background: #eff7fe;
     padding: 150px 0 120px;
     overflow: hidden;
 }
@@ -1001,19 +982,19 @@ input:-moz-placeholder {
 .pricing-table .default-title p {
     color: #cacaca;
 }
-.pricingTable{
+.pricingTable {
     background: #fff;
     padding-bottom: 20px;
     margin-bottom: 30px;
     overflow: hidden;
     text-align: center;
 }
-.pricingTable .pricingTable-header{
+.pricingTable .pricingTable-header {
     margin-bottom: 40px;
     position: relative;
     z-index: 1;
 }
-.pricingTable .pricingTable-header:before{
+.pricingTable .pricingTable-header:before {
     content: "";
     width: 100%;
     height: 160%;
@@ -1027,7 +1008,7 @@ input:-moz-placeholder {
     -o-transform: rotate(-40deg);
     transform: rotate(-40deg);
 }
-.pricingTable .pricingTable-header:after{
+.pricingTable .pricingTable-header:after {
     content: "";
     width: 100%;
     height: 190%;
@@ -1041,7 +1022,7 @@ input:-moz-placeholder {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
 }
-.pricingTable .price-value{
+.pricingTable .price-value {
     text-align: left;
     display: inline-block;
     width: 50%;
@@ -1054,13 +1035,13 @@ input:-moz-placeholder {
     top: 10px;
     left: 20px;
 }
-.pricingTable .currency{
+.pricingTable .currency {
     font-size: 20px;
     position: relative;
     top: -10px;
     right: -3px;
 }
-.pricingTable .title{
+.pricingTable .title {
     display: inline-block;
     width: 50%;
     padding: 30px 0;
@@ -1073,22 +1054,19 @@ input:-moz-placeholder {
     top: 10px;
     right: 7px;
 }
-.pricingTable .pricing-content{
+.pricingTable .pricing-content {
     list-style: none;
     padding: 0;
     margin: 0 0 20px 0;
     text-align: center;
     clear: both;
 }
-.pricingTable .pricing-content li{
+.pricingTable .pricing-content li {
     font-size: 16px;
     color: #828282;
     line-height: 50px;
     border-bottom: 1px solid #eaeaea;
 }
-
-
-
 
 /*****-----*****-----*****-----*****
     11. Ticket CSS
@@ -1098,7 +1076,7 @@ input:-moz-placeholder {
     position: relative;
 }
 .ticket-area.over-layer-black:before {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 .ticket-area .section-title h2 {
     color: #f3f3f3;
@@ -1124,7 +1102,6 @@ input:-moz-placeholder {
     margin-top: 30px;
 }
 
-
 /*****-----*****-----*****-----*****
     12. Schedule CSS
 *****-----*****-----*****-----*****/
@@ -1133,21 +1110,21 @@ input:-moz-placeholder {
     position: relative;
 }
 .tab-panels ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .tab-panels ul li {
     font-size: 16px;
-  list-style-type: none;
-  display: inline-block;
-  background: #000000;
-  margin: 0;
-  padding: 3px 10px;
-  color: #fff;
-  font-weight: 200;
-  cursor: pointer;
+    list-style-type: none;
+    display: inline-block;
+    background: #000000;
+    margin: 0;
+    padding: 3px 10px;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
 }
 .tab-panels ul li span {
     font-size: 12px;
@@ -1157,17 +1134,19 @@ input:-moz-placeholder {
     font-weight: bold;
 }
 .tab-panels ul li.active {
-  color: #fff;
-  background: #e59500;
+    color: #fff;
+    background: #e59500;
 }
 
 .tab-panels .panel {
-  display: none;
-  background: #EFF7FE;
-  padding: 30px;
-  padding-bottom: 0;
+    display: none;
+    background: #eff7fe;
+    padding: 30px;
+    padding-bottom: 0;
 }
-.tab-panels .panel.active { display: block; }
+.tab-panels .panel.active {
+    display: block;
+}
 .schedule-box {
     position: relative;
     padding-left: 120px;
@@ -1191,8 +1170,6 @@ input:-moz-placeholder {
 .schedule-box h3 {
     font-size: 18px;
 }
-
-
 
 /*****-----*****-----*****-----*****
     13. Venue CSS
@@ -1252,7 +1229,6 @@ input:-moz-placeholder {
     transition: all 0.3s ease-in-out;
 }
 
-
 /*****-----*****-----*****-----*****
     14. Gallery CSS
 *****-----*****-----*****-----*****/
@@ -1263,15 +1239,15 @@ input:-moz-placeholder {
 .p-none {
     padding: 0;
 }
-.box{
+.box {
     overflow: hidden;
     position: relative;
 }
-.box img{
+.box img {
     width: 100%;
     height: auto;
 }
-.box .box-content{
+.box .box-content {
     padding: 25% 5%;
     position: absolute;
     top: 0;
@@ -1283,68 +1259,74 @@ input:-moz-placeholder {
     z-index: 1;
     transition: all 0.3s ease 0s;
 }
-.box:hover .box-content{ opacity: 1; }
+.box:hover .box-content {
+    opacity: 1;
+}
 .box:before,
 .box:after,
 .box .box-content:before,
-.box .box-content:after{
+.box .box-content:after {
     content: "";
     width: 50%;
     height: 50%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     transition: all 0.5s ease 0s;
 }
-.box:after{ top: 50%; }
+.box:after {
+    top: 50%;
+}
 .box .box-content:before,
-.box .box-content:after{
+.box .box-content:after {
     top: 0;
     left: 50%;
     z-index: -1;
 }
-.box .box-content:after{ top: 50%; }
-.box:hover:before{
+.box .box-content:after {
+    top: 50%;
+}
+.box:hover:before {
     left: 50%;
     opacity: 1;
 }
-.box:hover:after{
+.box:hover:after {
     top: 0;
     opacity: 1;
 }
-.box:hover .box-content:before{
+.box:hover .box-content:before {
     top: 50%;
     opacity: 1;
 }
-.box:hover .box-content:after{
+.box:hover .box-content:after {
     left: 0;
     opacity: 1;
 }
-.box .title{
+.box .title {
     font-size: 24px;
     color: #e59500;
     text-transform: capitalize;
     margin: 0 0 20px 0;
 }
-.box .post{
+.box .post {
     display: block;
     font-size: 14px;
     font-weight: 700;
     color: #fff;
     margin: 0 0 20px 0;
 }
-.box .icon{
+.box .icon {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.box .icon li{
+.box .icon li {
     display: inline-block;
     margin: 0 5px 0 0;
 }
-.box .icon a{
+.box .icon a {
     display: block;
     width: 30px;
     height: 30px;
@@ -1355,13 +1337,12 @@ input:-moz-placeholder {
     text-align: center;
     transition: all 0.3s ease 0s;
 }
-.box .icon a:hover{
+.box .icon a:hover {
     background: transparent;
     color: #fff;
     border-radius: 50%;
     box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
 }
-
 
 /*****-----*****-----*****-----*****
     15. Counter CSS
@@ -1410,7 +1391,8 @@ input:-moz-placeholder {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.counter-col:hover:before, .counter-col:hover:after {
+.counter-col:hover:before,
+.counter-col:hover:after {
     width: 100px;
     height: 100px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1429,7 +1411,6 @@ input:-moz-placeholder {
     color: #ffffff;
     text-transform: capitalize;
 }
-
 
 /*****-----*****-----*****-----*****
     16. Blog CSS
@@ -1461,8 +1442,8 @@ input:-moz-placeholder {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .overlay:before {
     content: "";
@@ -1471,7 +1452,7 @@ input:-moz-placeholder {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, 0.4);
     opacity: 0;
     z-index: 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1552,8 +1533,6 @@ input:-moz-placeholder {
     margin-top: 15px;
 }
 
-
-
 /* Blog Single CSS */
 .blog-details-area {
     padding: 150px 0;
@@ -1582,7 +1561,7 @@ input:-moz-placeholder {
     color: #333333;
 }
 .blog-details-area .blog-date ul li a:hover {
-    color: #3AA6F8;
+    color: #3aa6f8;
 }
 .blog-details-area .blog-content h2 {
     margin-top: 30px;
@@ -1592,7 +1571,7 @@ input:-moz-placeholder {
 }
 .highlight-text {
     padding: 20px;
-    background: #F5F5F5;
+    background: #f5f5f5;
     margin-bottom: 30px;
     margin-top: 30px;
     border-left: 3px solid #e59500;
@@ -1653,13 +1632,11 @@ input:-moz-placeholder {
     height: 100%;
 }
 
-
-
 /*****-----*****-----*****-----*****
     17. Sponsor CSS
 *****-----*****-----*****-----*****/
 .sponsor-area {
-    padding: 150px 0 120px; 
+    padding: 150px 0 120px;
     background: #eff7fe;
 }
 .sponsor-col {
@@ -1671,8 +1648,6 @@ input:-moz-placeholder {
     margin: 0 auto;
     display: block;
 }
-
-
 
 /*****-----*****-----*****-----*****
     18. Contact CSS
@@ -1724,7 +1699,8 @@ input:-moz-placeholder {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.info-box:hover:before, .info-box:hover:after {
+.info-box:hover:before,
+.info-box:hover:after {
     width: 100px;
     height: 100px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1770,7 +1746,6 @@ input:-moz-placeholder {
     display: block;
 }
 
-
 /*****-----*****-----*****-----*****
     19. Page title CSS
 *****-----*****-----*****-----*****/
@@ -1782,7 +1757,7 @@ input:-moz-placeholder {
     background-repeat: no-repeat;
 }
 .page-title-section.over-layer-black::before {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 .page-title-section h2 {
     font-size: 45px;
@@ -1798,25 +1773,23 @@ input:-moz-placeholder {
     color: #e59500;
 }
 
-
-
 /*****-----*****-----*****-----*****
     20. Footer CSS
 *****-----*****-----*****-----*****/
 .footer-area {
     padding: 150px 0 0;
     background: #ffffff;
-    background-image: url(../images/bg/footer.png); 
+    background-image: url(../images/bg/footer.png);
     background-size: cover;
     background-position: center;
 }
 .footer-area.over-layer-white:before {
-    background: rgba(255,255,255,0.85);
+    background: rgba(255, 255, 255, 0.85);
 }
 .footer-area .form-control {
     color: #333333;
     height: 50px;
-    background: rgba(255,255,255,0.4);
+    background: rgba(255, 255, 255, 0.4);
 }
 .footer-area .btn {
     height: 50px;
@@ -1845,8 +1818,6 @@ input:-moz-placeholder {
     color: #e59500;
 }
 
-
-
 /*****-----*****-----*****-----*****
     21. Dark Version CSS 
 *****-----*****-----*****-----*****/
@@ -1862,8 +1833,8 @@ input:-moz-placeholder {
 .dark-version h6 {
     color: #f1f1f1;
 }
-.dark-version .pricing-table, 
-.dark-version .tab-panels .panel, 
+.dark-version .pricing-table,
+.dark-version .tab-panels .panel,
 .dark-version .venue-area,
 .dark-version .sponsor-area,
 .dark-version .info-box {
@@ -1883,7 +1854,7 @@ input:-moz-placeholder {
     background: #000000;
 }
 .dark-version .info-bar ul li a {
-    color: #a5a5a5;;
+    color: #a5a5a5;
 }
 .dark-version .blog-col h4 a {
     color: #f1f1f1;
@@ -1902,12 +1873,13 @@ input:-moz-placeholder {
     background: #000000;
     border-bottom: 1px solid #717171;
 }
-.dark-version .main-header .navbar-light.scrolling-header .navbar-nav .nav-link {
+.dark-version
+    .main-header
+    .navbar-light.scrolling-header
+    .navbar-nav
+    .nav-link {
     color: #dddddd;
 }
-
-
-
 
 /*****-----*****-----*****-----*****
     22. Demo List Page CSS 
@@ -1921,10 +1893,10 @@ input:-moz-placeholder {
     background-position: center;
 }
 .main-demo-heading.over-layer-black:before {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 .main-demo-heading h1 {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     color: #e59500;
     font-size: 70px;
     font-weight: normal;
@@ -1947,9 +1919,6 @@ input:-moz-placeholder {
     color: #ffffff;
     border-color: #e59500;
 }
-
-
-
 
 /* Features CSS */
 
@@ -1987,8 +1956,6 @@ input:-moz-placeholder {
     text-transform: capitalize;
 }
 
-
-
 /* Live Preview CSS */
 .live-preview-area {
     text-align: center;
@@ -2010,9 +1977,9 @@ input:-moz-placeholder {
     position: relative;
     height: 335px;
     overflow: hidden;
-    -webkit-box-shadow: -2px 3px 35px -5px rgba(74,74,74,1);
-    -moz-box-shadow: -2px 3px 35px -5px rgba(74,74,74,1);
-    box-shadow: -2px 3px 35px -5px rgba(74,74,74,1);
+    -webkit-box-shadow: -2px 3px 35px -5px rgba(74, 74, 74, 1);
+    -moz-box-shadow: -2px 3px 35px -5px rgba(74, 74, 74, 1);
+    box-shadow: -2px 3px 35px -5px rgba(74, 74, 74, 1);
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -2091,18 +2058,18 @@ input:-moz-placeholder {
     line-height: 1.5;
 }
 
-.further{
+.further {
     color: black;
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     font-size: 25px;
 }
 
-.changes{
+.changes {
     padding-bottom: 0;
     padding-top: 30px;
 }
 
-.fa-spotify{
+.fa-spotify {
     font-size: 50px;
     text-decoration: none;
     color: rgb(30, 215, 97);
@@ -2114,11 +2081,11 @@ input:-moz-placeholder {
     23. Current Insights CSS
 *****-----*****-----*****-----*****/
 
-.insights *{
+.insights * {
     margin: 0;
     padding: 0;
 }
-.insights .card_container {  
+.insights .card_container {
     position: relative;
     box-sizing: border-box;
     height: 20em;
@@ -2128,7 +2095,8 @@ input:-moz-placeholder {
 }
 .insights .card_container:hover {
     transform: translateY(-0.25rem);
-    box-shadow: rgba(46, 41, 51, 0.5) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+    box-shadow: rgba(46, 41, 51, 0.5) 0px 2px 4px,
+        rgba(71, 63, 79, 0.16) 0px 5px 10px;
 }
 
 .insights .card_container .card-img {
@@ -2138,41 +2106,40 @@ input:-moz-placeholder {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.insights .card_container .card-img .card-topic h3{
+.insights .card_container .card-img .card-topic h3 {
     width: 100%;
-    height: 2em;  
-    background-color:rgba(0,0,0,0.65);
-    color: #F1F1F1;
-    display:flex;
+    height: 2em;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #f1f1f1;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 16px 16px 0 0;
 }
-.insights .card_container .card-content{
+.insights .card_container .card-content {
     opacity: 0;
     height: 3em;
-    background-color:rgba(0,0,0,0.65);
-    padding:0 12px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 0 12px;
     border-radius: 0 0 16px 16px;
-     transition: all 0.3s ease-in;
-    -webkit-transition:all 0.3s ease-in;
-    -moz-transition:all 0.3s ease-in;
-    -o-transition:all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
-.insights .card_container .card-content p{
-    color: #FFF;
+.insights .card_container .card-content p {
+    color: #fff;
     line-height: 1.5;
     font-size: 1em;
 }
-.insights .card_container .card-img:hover .card-content{
+.insights .card_container .card-img:hover .card-content {
     opacity: 1;
     height: 16.75em;
-   
+
     overflow: hidden;
 }
 
-.btn-a a
-   {
+.btn-a a {
     position: relative;
     z-index: 1;
     margin: 15px auto;
@@ -2183,20 +2150,19 @@ input:-moz-placeholder {
     border: 5px solid transparent;
     border-image: linear-gradient(to top right, orangered, yellow);
     border-image-slice: 1;
-    color:#e59500;
+    color: #e59500;
     font-family: Oswald;
     font-weight: bold;
     transition: all 0.3s ease;
-    -webkit-transition:all 0.3s ease;
-    -moz-transition:all 0.3s ease;
-    -o-transition:all 0.3s ease;
-    display:flex;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 .btn-a a:hover {
-   background-image: linear-gradient(to top right, orangered, yellow);
-   color: white;
-   box-shadow: black 1px 2px 4px;
+    background-image: linear-gradient(to top right, orangered, yellow);
+    color: white;
+    box-shadow: black 1px 2px 4px;
 }
-
