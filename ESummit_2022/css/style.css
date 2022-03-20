@@ -110,18 +110,13 @@ h6 {
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
-
-.header {
-  background-image: url(../img/banner.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 90vh;
+.bground {
+  margin: 0;
+  padding: 0;
 }
 
-.header img {
-  display: none;
+.bground img {
+  width: 100vw;
 }
 
 /*************** About Us ******************/
@@ -129,6 +124,7 @@ h6 {
   padding: 1rem 2rem 2rem 2rem;
   background-color: #010101;
   color: #fff;
+  margin-top: -1.5rem;
 }
 
 .accent-text {
@@ -1119,9 +1115,6 @@ h6 {
   .btn-area {
     display: none;
   }
-  header {
-    height: 30vh;
-  }
   .speaker {
     justify-content: center;
     align-items: center;
@@ -1200,30 +1193,16 @@ h6 {
     z-index: 5;
   }
 
-  .header {
-    background-image: url(../img/banner-phone.jpg);
-    background-size: cover;
-    height: 60vh;
-    position: relative;
-  }
-
-  .header img {
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    left: 45vw;
-    top: 3%;
-    position: absolute;
-  }
-
   .about-us {
     padding: 1rem 0;
+    margin-top: -1rem;
     overflow-x: hidden;
   }
 
   .accent-text {
     text-align: center;
     margin: 0;
+    font-size: 2.5rem;
   }
 
   .about-us-wrapper {
@@ -1237,7 +1216,7 @@ h6 {
   .our-info-wrapper {
     text-align: center;
     margin: 0;
-    padding: 0 1rem;
+    padding: 1rem;
     width: 100vw;
   }
 
